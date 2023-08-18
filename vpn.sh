@@ -13,12 +13,14 @@ while getopts ":hfbcens" opt; do
     n)SERVER="oslo-s409-i11.cg-dialup.net";;
     c)SERVER="zagreb-s403-i10.cg-dialup.net";;
     h)echo "usage: $0 [-h] [-b] [-s] [-e] [-n] [-c] [-f]"
-      echo "### -b BiH ###"
-      echo "### -s Srbija ###"
-      echo "### -c Hrvatska ###" 
-      echo "### -e England ###"
-      echo "### -n Norge ###" 
-      echo "### -f France ###"
+      echo ""
+      echo "### -b ### BiH"
+      echo "### -s ### Srbija"
+      echo "### -c ### Hrvatska" 
+      echo "### -e ### England"
+      echo "### -n ### Norge" 
+      echo "### -f ### France"
+      echo "### -h ### Print this help"
       exit;;
   esac
 done
