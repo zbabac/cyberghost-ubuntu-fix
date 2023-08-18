@@ -2,8 +2,10 @@
 # set default server
 SERVER="belgrade-s403-i09.cg-dialup.net"
 # add your favorite servers in the case getopts options below
+# add first new letter for the new server in the line below this one
 while getopts ":hfbcens" opt; do
   case "$opt" in
+    # add new letter and server name below this line
     f)SERVER="paris-s404-i11.cg-dialup.net";;
     b)SERVER="travnik-s401-i07.cg-dialup.net";;
     e)SERVER="london-s440-i03.cg-dialup.net";;
