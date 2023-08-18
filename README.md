@@ -7,7 +7,7 @@ Useful logs can be found in `/var/log/auth.log`. Cyberghost application just pol
 
 When running openvpn manually without this option, connection is established.
 
-This script automates connections to the favorite cyberghost servers, so you don't have to copy/paste openvpn every time you want to connect.
+This script is a workaround for that problem and automates connections to the favorite cyberghost servers, so you don't have to copy/paste openvpn every time you want to connect.
 
 ***How to use it?***
 
