@@ -1,8 +1,8 @@
 #!/bin/bash
 # set default server
 SERVER="belgrade-s403-i09.cg-dialup.net"
-# add your favorite servers in the case getopts options below
-# add first new letter for the new server in the line below this one
+# add your favorite servers in case getopts options below
+# first append new letter for the new server in the line below this one (under quotes for example letter 'a' like this ":hfbcensa")
 while getopts ":hfbcens" opt; do
   case "$opt" in
     # add new letter and server name below this line
