@@ -1,5 +1,5 @@
 # cyberghost-ubuntu-fix
-For those that are having issues connecting cyberghost VPN from Ubunu
+For those that are having issues connecting to cyberghost VPN from Ubuntu
 
 I noticed issues on Ubuntu 22.04 and 23.04 after installing cyberghost VPN terminal client. Connection tries for 30+ seconds and then aborts with message **connection failed**. No other explanation.
 
